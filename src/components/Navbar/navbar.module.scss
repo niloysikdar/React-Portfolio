@@ -1,10 +1,11 @@
 @import "../../ui/colors";
+@import "../../ui/values";
 
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
-  height: 5rem;
+  height: $navbarheight;
   width: 100%;
   padding: 0 3vw;
   background-color: #dbecffd5;
@@ -15,7 +16,7 @@
   align-items: center;
 
   .logo {
-    font-size: 2vw;
+    font-size: 2rem;
     font-style: italic;
     letter-spacing: 0.2vw;
   }
@@ -32,7 +33,8 @@
       transition: 0.5s all ease-in-out;
 
       &:hover {
-        color: $buttoncolor2;
+        // color: $buttoncolor2;
+        color: #000000e7;
       }
     }
   }
