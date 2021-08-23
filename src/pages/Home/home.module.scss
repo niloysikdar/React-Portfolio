@@ -1,0 +1,9 @@
+@import "../../ui/colors";
+
+.home {
+  min-height: 100vh;
+  background-color: $lightbackground;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
