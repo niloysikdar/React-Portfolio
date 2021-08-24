@@ -10,13 +10,13 @@ export const EducationData = [
     title: "12th Board, PCMB",
     date: "2017-2019",
     details:
-      "Finished 12th board exams from Islampur High School (H.S.) with 94% marks in PCMB.",
+      "Finished 12th board exam from Islampur High School (H.S.) with 94% marks in PCMB.",
   },
 
   {
     title: "10th Board",
     date: "2017",
     details:
-      "Finished 10th board exams from Islampur High School (H.S.) with 96% marks.",
+      "Finished 10th board exam from Islampur High School (H.S.) with 96% marks.",
   },
 ];

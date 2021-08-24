@@ -1,50 +1,10 @@
 @import "../../ui/colors";
 @import "../../ui/values";
 
-@mixin keyframes($animation-name) {
-  @-webkit-keyframes #{$animation-name} {
-    @content;
-  }
-  @-moz-keyframes #{$animation-name} {
-    @content;
-  }
-  @-ms-keyframes #{$animation-name} {
-    @content;
-  }
-  @-o-keyframes #{$animation-name} {
-    @content;
-  }
-  @keyframes #{$animation-name} {
-    @content;
-  }
-}
-
-@mixin animation($str) {
-  -webkit-animation: #{$str};
-  -moz-animation: #{$str};
-  -ms-animation: #{$str};
-  -o-animation: #{$str};
-  animation: #{$str};
-}
-
-@include keyframes(slide-left) {
-  0% {
-    left: -100%;
-  }
-
-  100% {
-    left: 0;
-  }
-}
-
 .skills {
-  position: absolute;
-  left: 0;
   min-height: 100vh;
-  width: 100%;
   padding: calc(#{$navbarheight} + 1rem) 0 2rem 0;
   background-color: $lightbackground;
-  @include animation("slide-left 1.4s 1");
 
   .wrapper {
     max-width: 1080px;
@@ -81,7 +41,7 @@
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.8);
-        transition: 0.4s all ease-in-out;
+        transition: 0.4s all ease-in-out !important;
 
         &:hover {
           transform: scale(1.07) translateY(-5px);
