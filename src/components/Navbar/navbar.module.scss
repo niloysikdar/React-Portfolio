@@ -8,9 +8,9 @@
   height: $navbarheight;
   width: 100%;
   padding: 0 3vw;
-  background-color: #dbecffd5;
+  background-color: #dbecff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  z-index: 100;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,7 @@
       padding: 0.5vw 0.7vw;
       margin: 0 0.5vw;
       transition: 0.5s all ease-in-out;
-      color: #808080;
+      color: #5e5e5eea;
       font-size: 1.3rem;
       font-weight: 500;
       transition: 0.5s all ease-in-out;

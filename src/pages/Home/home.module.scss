@@ -49,7 +49,7 @@
 
 .home {
   min-height: 100vh;
-  padding: calc($navbarheight + 2rem) 2rem 2rem 2rem;
+  padding: calc(#{$navbarheight} + 2rem) 2rem 2rem 2rem;
   background-color: $lightbackground;
   display: flex;
   flex-direction: column;
