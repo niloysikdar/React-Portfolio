@@ -8,12 +8,14 @@
   height: $navbarheight;
   width: 100%;
   padding: 0 3vw;
-  background-color: #dbecff;
+  // background-color: #dbecff;
+  background: #e2e8ec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // border-bottom: 2px solid #000000e7;
 
   .logo {
     font-size: 2rem;
@@ -27,14 +29,16 @@
       padding: 0.5vw 0.7vw;
       margin: 0 0.5vw;
       transition: 0.5s all ease-in-out;
-      color: #5e5e5eea;
+      color: #4d4d4d;
       font-size: 1.3rem;
       font-weight: 500;
-      transition: 0.5s all ease-in-out;
+      border-radius: 4px;
+      transition: 0.3s all ease-in-out;
 
       &:hover {
         // color: $buttoncolor2;
-        color: #000000e7;
+        // color: #000000;
+        background-color: rgba(0, 0, 0, 0.06);
       }
     }
   }
