@@ -2,13 +2,7 @@ import { ImGithub, ImLinkedin, ImAndroid } from "react-icons/im";
 import { FaMedium } from "react-icons/fa";
 import { SiInstagram } from "react-icons/si";
 
-interface IconsList {
-  title: string;
-  link: string;
-  icon: any;
-}
-
-export const LinksData: IconsList[] = [
+export const LinksData = [
   {
     title: "GitHub",
     icon: <ImGithub color="#000000dc" />,

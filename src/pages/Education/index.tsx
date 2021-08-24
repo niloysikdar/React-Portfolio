@@ -4,7 +4,7 @@ import { EducationData } from "./EducationData";
 import styles from "./education.module.scss";
 
 const eduOpen = "<education>";
-const eduClose = "<education/>";
+const eduClose = "</education>";
 
 const Education = () => {
   return (

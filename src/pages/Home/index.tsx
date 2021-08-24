@@ -1,6 +1,5 @@
 import styles from "./home.module.scss";
-// @ts-ignore
-import { LinksData } from "./LinksData.tsx";
+import { LinksData } from "./LinksData";
 import profilePic from "../../assets/profile.jpg";
 
 const Home = () => {
@@ -12,7 +11,7 @@ const Home = () => {
         A Developer who loves to build cool things
       </h3>
       <div className={styles.links}>
-        {LinksData.map((item: { title: string; link: string; icon: any }) => (
+        {LinksData.map((item) => (
           <a href={item.link} target="_blank" rel="noreferrer" key={item.title}>
             {item.icon}
           </a>
