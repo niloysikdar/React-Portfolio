@@ -25,5 +25,13 @@
       margin-top: 3rem;
       color: #000000b0;
     }
+
+    .projects_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 3.6rem;
+    }
   }
 }

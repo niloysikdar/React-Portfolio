@@ -5,8 +5,8 @@ import profilePic from "../../assets/profile.jpg";
 // @ts-ignore
 import Zoom from "react-reveal/Zoom";
 
-const about = "<A Developer who loves to build cool things>";
-const about_next = "</Web and Mobile app developer and mentor>";
+const about = "<A Developer who loves to build cool things />";
+const about_next = "<Web and Mobile app developer and mentor />";
 
 const Home = () => {
   return (
@@ -18,19 +18,14 @@ const Home = () => {
       <Zoom right cascade>
         <h3 className={styles.about}>{about}</h3>
         <h3 className={styles.about_next}>{about_next}</h3>
-        <div className={styles.links}>
-          {LinksData.map((item) => (
-            <a
-              href={item.link}
-              target="_blank"
-              rel="noreferrer"
-              key={item.title}
-            >
-              {item.icon}
-            </a>
-          ))}
-        </div>
       </Zoom>
+      <div className={styles.links}>
+        {LinksData.map((item) => (
+          <a href={item.link} target="_blank" rel="noreferrer" key={item.title}>
+            {item.icon}
+          </a>
+        ))}
+      </div>
     </div>
   );
 };
