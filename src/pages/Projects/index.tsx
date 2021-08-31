@@ -17,7 +17,7 @@ const Projects = () => {
         <div className={styles.projects_content}>
           {ProjectsData.map((item, index) =>
             index % 2 === 0 ? (
-              <Flip top>
+              <Flip top key={item.title}>
                 <ProjectCard
                   key={item.title}
                   title={item.title}
@@ -28,7 +28,7 @@ const Projects = () => {
                 />
               </Flip>
             ) : (
-              <Flip bottom>
+              <Flip bottom key={item.title}>
                 <ProjectCard
                   key={item.title}
                   title={item.title}
