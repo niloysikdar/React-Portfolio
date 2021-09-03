@@ -69,7 +69,13 @@ const Contact = () => {
           </form>
         </div>
         <div className={styles.lottie}>
-          <Lottie options={defaultOptions} height="100%" width="100%" />
+          <Lottie
+            options={defaultOptions}
+            height="100%"
+            width="100%"
+            isStopped={false}
+            isPaused={false}
+          />
         </div>
       </div>
     </div>
