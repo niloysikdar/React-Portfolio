@@ -5,6 +5,7 @@
   min-height: 100vh;
   padding: calc(#{$navbarheight} + 1rem) 0 2rem 0;
   background-color: $lightbackground;
+  overflow-x: hidden;
 
   .wrapper {
     max-width: 1080px;
