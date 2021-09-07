@@ -1,5 +1,5 @@
 import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
-import { ProjectsData } from "./ProjectsData";
+import { ProjectsData } from "../../data/ProjectsData";
 import styles from "./projects.module.scss";
 
 // @ts-ignore

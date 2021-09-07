@@ -1,4 +1,4 @@
-import { SkillsData } from "./SkillsData";
+import { SkillsData } from "../../data/SkillsData";
 import styles from "./skills.module.scss";
 
 // @ts-ignore

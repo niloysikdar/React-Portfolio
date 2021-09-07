@@ -1,6 +1,6 @@
 import { EducationCard } from "../../components/EducationCard/EducationCard";
 
-import { ExperienceData } from "./ExperienceData";
+import { ExperienceData } from "../../data/ExperienceData";
 import styles from "../Education/education.module.scss";
 
 const eduOpen = "<experience>";
