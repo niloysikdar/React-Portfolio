@@ -47,6 +47,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Name"
+              required
               value={contactData.name}
               onChange={handleOnchange}
             />
@@ -54,6 +55,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Email"
+              required
               value={contactData.email}
               onChange={handleOnchange}
             />
@@ -62,6 +64,7 @@ const Contact = () => {
               cols={30}
               rows={5}
               placeholder="Your Message"
+              required
               value={contactData.message}
               onChange={handleOnchange}
             ></textarea>

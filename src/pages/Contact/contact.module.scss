@@ -3,7 +3,7 @@
 
 .contact {
   min-height: 100vh;
-  padding: calc(#{$navbarheight} + 1rem) 0 2rem 0;
+  padding: calc(#{$navbarheight} + 2rem) 2rem 2rem 2rem;
   background-color: $lightbackground;
   display: flex;
   justify-content: center;
@@ -72,6 +72,37 @@
     .lottie {
       height: 380px;
       width: 380px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .contact {
+    .wrapper {
+      flex-direction: column-reverse;
+      width: 85vw;
+      padding: 2rem;
+
+      .form {
+        width: 80%;
+      }
+
+      .lottie {
+        height: 250px;
+        width: 250px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    .wrapper {
+      padding: 1.2rem;
+
+      .form {
+        width: 100%;
+      }
     }
   }
 }
