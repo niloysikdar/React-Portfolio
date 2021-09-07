@@ -6,12 +6,14 @@ import profilePic from "../../assets/profile.jpg";
 // @ts-ignore
 import Zoom from "react-reveal/Zoom";
 
+const welcomeText = `Hey, ${AboutData.firstName} here`;
+
 const Home = () => {
   return (
     <div className={styles.home}>
       <Zoom top big cascade>
         <img src={profilePic} alt="Profile" className={styles.image} />
-        <h2 className={styles.title}>Hey, {AboutData.firstName} here</h2>
+        <h2 className={styles.title}>{welcomeText}</h2>
       </Zoom>
       <Zoom right cascade>
         <h3 className={styles.about}>{AboutData.about1}</h3>
