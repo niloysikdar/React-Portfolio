@@ -8,12 +8,12 @@ export const LinksData = [
     linkTo: "/education",
   },
   {
-    title: "Experience",
-    linkTo: "/education",
-  },
-  {
     title: "Skills",
     linkTo: "/skills",
+  },
+  {
+    title: "Experience",
+    linkTo: "/experience",
   },
   {
     title: "Projects",
