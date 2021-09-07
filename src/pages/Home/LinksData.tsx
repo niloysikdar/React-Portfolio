@@ -1,5 +1,5 @@
 import { ImGithub, ImLinkedin, ImAndroid } from "react-icons/im";
-import { FaMedium } from "react-icons/fa";
+import { FaMedium, FaTwitter } from "react-icons/fa";
 import { SiInstagram } from "react-icons/si";
 
 export const LinksData = [
@@ -27,5 +27,10 @@ export const LinksData = [
     title: "Instagram",
     icon: <SiInstagram color="#000000dc" />,
     link: "https://instagram.com",
+  },
+  {
+    title: "Twitter",
+    icon: <FaTwitter color="#000000dc" />,
+    link: "https://twitter.com",
   },
 ];
