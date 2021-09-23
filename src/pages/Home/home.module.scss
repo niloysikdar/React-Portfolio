@@ -98,18 +98,27 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 
     a {
-      padding: 6px;
+      padding: 10px;
       text-decoration: none;
       border-radius: 5px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 4px 8px 0 $buttondark;
-      font-size: 2rem;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      font-size: 1.8rem;
 
+      & svg {
+        transition: all 1.2s ease;
+      }
+
+      &:hover svg {
+          transform: rotateY(1turn);
+      }
+
+      /*
       &:hover:nth-child(odd) {
         @include animation("rotate-icon1 1s 1");
       }
@@ -117,6 +126,7 @@
       &:hover:nth-child(even) {
         @include animation("rotate-icon2 1s 1");
       }
+      */
     }
   }
 }

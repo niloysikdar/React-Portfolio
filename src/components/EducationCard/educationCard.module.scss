@@ -1,3 +1,5 @@
+@import "../../ui/colors";
+
 .row {
   display: flex;
 
@@ -33,7 +35,7 @@
       text-align: center;
       line-height: 40px;
       border-radius: 50%;
-      color: #3ea0e2;
+      color: $primarylight;
       font-size: 17px;
       box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
         0 3px 0 4px rgba(0, 0, 0, 0.05);
@@ -45,13 +47,26 @@
       justify-content: space-between;
 
       .title {
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 24px;
+        font-weight: 500;
+        color: $lightblack;
+        font-family: "Ubuntu", sans-serif;
+      }
+
+      & span {
+        color: $primarylight;
+        font-size: 18px;
+        font-family: "JoseFin sans", sans-serif;
       }
     }
 
     p {
       margin: 10px 0;
+      font-size: 18px;
+      line-height: 1.4;
+      letter-spacing: 0.2px;
+      color: $lightgrey;
+      text-align: justify;
     }
   }
 }

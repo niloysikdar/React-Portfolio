@@ -55,25 +55,38 @@
 
     .eduOpen {
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 600;
       margin-bottom: 2rem;
-      color: #000000b0;
+      color: $lightwhite;
+      background: $primarylight;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 8px 10px;
+      font-family: "Ubuntu Mono", monospace;
+      letter-spacing: 0.5px;
     }
 
     .eduClose {
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 600;
       margin-top: 3rem;
-      color: #000000b0;
+      color: $lightwhite;
+      background: $primarylight;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 8px 10px;
+      font-family: "Ubuntu Mono", monospace;
+      letter-spacing: 0.5px;
     }
 
     .center_line {
       position: absolute;
       height: 75%;
       width: 4px;
-      background: #3ea0e2;
+      background: $primarylight;
       left: 50%;
       top: 60px;
+      border-radius: 2px;
       transform: translateX(-50%);
     }
   }
