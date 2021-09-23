@@ -34,7 +34,7 @@ const Navbar = () => {
             }
             onClick={handleMobileMenuToggle}
           >
-            <AiOutlineMenu size={35} />
+            <AiOutlineMenu size={35} color="#ffffff" />
           </div>
 
           <div
@@ -45,7 +45,7 @@ const Navbar = () => {
             }
             onClick={handleMobileMenuToggle}
           >
-            <AiOutlineClose size={35} />
+            <AiOutlineClose size={35} color="#ffffff" />
           </div>
         </div>
       </div>
