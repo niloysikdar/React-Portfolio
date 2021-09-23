@@ -9,8 +9,8 @@
   width: 100%;
   padding: 0 3vw;
   // background-color: #dbecff;
-  background: #e2e8ec;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: $primarylight;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   z-index: 10;
   display: flex;
   justify-content: space-between;
@@ -19,8 +19,15 @@
 
   .logo {
     font-size: 2rem;
-    font-style: italic;
-    letter-spacing: 0.2vw;
+    clip-path: inset(0 85% 0 0);
+    letter-spacing: 0.01vw;
+    cursor: pointer;
+    color: $lightwhite;
+    transition: all 0.3s ease;
+
+    &:hover {
+      clip-path: inset(0 0 0 0);
+    }
   }
 
   .desktopitems {
@@ -29,7 +36,7 @@
       padding: 0.5vw 0.7vw;
       margin: 0 0.5vw;
       transition: 0.5s all ease-in-out;
-      color: #4d4d4d;
+      color: $lightwhite;
       font-size: 1.3rem;
       font-weight: 500;
       border-radius: 4px;
@@ -37,8 +44,7 @@
 
       &:hover {
         // color: $buttoncolor2;
-        // color: #000000;
-        background-color: rgba(0, 0, 0, 0.06);
+        background-color: rgba(33, 80, 156, 0.5);
       }
     }
   }

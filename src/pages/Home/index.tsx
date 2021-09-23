@@ -11,7 +11,7 @@ const welcomeText = `Hey, ${AboutData.firstName} here`;
 const Home = () => {
   return (
     <div className={styles.home}>
-      <Zoom top big cascade>
+      <Zoom cascade>
         <img src={profilePic} alt="Profile" className={styles.image} />
         <h2 className={styles.title}>{welcomeText}</h2>
       </Zoom>
