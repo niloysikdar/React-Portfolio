@@ -45,7 +45,7 @@
   margin-top: $navbarheight;
   padding: 1rem 0;
   background-color: $lightbackground;
-  @include animation('slide-left 0.8s 1');
+  // @include animation('slide-left 0.8s 1');
 
   .wrapper {
     max-width: 1080px;
