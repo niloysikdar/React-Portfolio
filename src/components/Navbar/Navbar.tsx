@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { LinksData } from './LinksData';
 import styles from './navbar.module.scss';
 
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { IoMenu, IoClose } from 'react-icons/io5';
 
 const Navbar = () => {
   const [isMenuOpen, setIsmenuOpen] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
             }
             onClick={handleMobileMenuToggle}
           >
-            <AiOutlineMenu size={35} color="#ffffff" />
+            <IoMenu size={40} color="#ffffff" />
           </div>
 
           <div
@@ -45,7 +45,7 @@ const Navbar = () => {
             }
             onClick={handleMobileMenuToggle}
           >
-            <AiOutlineClose size={35} color="#ffffff" />
+            <IoClose size={40} color="#ffffff" />
           </div>
         </div>
       </div>
