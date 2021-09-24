@@ -15,24 +15,15 @@ const eduClose = '</experience>';
 const Experience = () => {
   return (
     <div className={styles.education}>
-      <div className={styles.wrapper}>
-        <h3 className={styles.eduOpen}>
-          <motion.div 
-            initial='init'
-            animate='anim'
-            exit='last'
-            variants={pageVariants}
-            transition={pageTransition}>
-              {eduOpen}
-            </motion.div>
-        </h3>
-        <motion.div
-          initial='init'
-          animate='anim'
-          exit='last'
-          variants={pageVariants}
-          transition={pageTransition}
-        >
+      <motion.div
+        initial='init'
+        animate='anim'
+        exit='last'
+        variants={pageVariants}
+        transition={pageTransition}
+      >
+        <div className={styles.wrapper}>
+          <h3 className={styles.eduOpen}>{eduOpen}</h3>
           <div className={styles.center_line}></div>
           {ExperienceData.map((item, index) => (
             <EducationCard
@@ -43,18 +34,9 @@ const Experience = () => {
               isLeft={index % 2 === 0 ? true : false}
             />
           ))}
-        </motion.div>
-        <h3 className={styles.eduClose}>
-          <motion.div 
-            initial='init'
-            animate='anim'
-            exit='last'
-            variants={pageVariants}
-            transition={pageTransition}>
-              {eduClose}
-          </motion.div>
-        </h3>
-      </div>
+          <h3 className={styles.eduClose}>{eduClose}</h3>
+        </div>
+      </motion.div>
     </div>
   );
 };

@@ -1,15 +1,15 @@
 const pageVariants = {
     init: {
         opacity: 0,
-        // x: '-100%',
+        y: '-100%',
     },
     anim: {
         opacity: 1,
-        // x: 0,
+        y: 0,
     },
     last: {
         opacity: 0,
-        // x: '100%',
+        y: '-100%',
     },
 };
 
