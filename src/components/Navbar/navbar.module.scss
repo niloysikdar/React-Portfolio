@@ -50,21 +50,21 @@
       position: absolute;
       right: 3vw;
       top: 12.9px;
-      background-color: rgba(0, 0, 0, 0.06);
+      // background-color: rgba(0, 0, 0, 0.06);
       padding: 6px 7px 4px 7px;
       border-radius: 10px;
       cursor: pointer;
       transform: scale(1);
-      transition: 0.4s all ease-in-out;
+      transition: 0.3s all ease-in-out;
 
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.08);
-      }
+      // &:hover {
+      //   background-color: rgba(0, 0, 0, 0.08);
+      // }
     }
 
     .active {
       transform: scale(0);
-      transition: 0.4s all ease-in-out;
+      transition: 0.3s all ease-in-out;
     }
   }
 }
@@ -89,9 +89,10 @@
   .mobileLinks {
     text-decoration: none;
     padding: 10px;
-    color: $lightbackground;
-    color: #fff;
-    font-size: 1.5rem;
+    color: $lightwhite;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
   }
 }
 
