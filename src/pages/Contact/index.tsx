@@ -1,4 +1,10 @@
 import { useState } from 'react';
+import { motion } from 'framer-motion';
+
+import {
+    pageVariants,
+    pageTransition,
+} from '../../components/Framer/Animation';
 
 import Lottie from 'react-lottie';
 
@@ -39,7 +45,14 @@ const Contact = () => {
 
   return (
     <div className={styles.contact}>
-      <div className={styles.wrapper}>
+      <motion.div 
+          initial='init'
+          animate='anim'
+          exit='last'
+          variants={pageVariants}
+          transition={pageTransition}
+          className={styles.wrapper}
+      >
         <div className={styles.form}>
           <h3 className={styles.contactOpen}>{contactOpen}</h3>
           <form onSubmit={handleOnsubmit}>
@@ -80,7 +93,7 @@ const Contact = () => {
             isPaused={false}
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

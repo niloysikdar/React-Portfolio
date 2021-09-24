@@ -14,16 +14,28 @@
 
     .skillsopen {
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 600;
       margin-bottom: 2rem;
-      color: #000000b0;
+      color: $lightwhite;
+      background: $primarylight;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 8px 10px;
+      font-family: 'Ubuntu Mono', monospace;
+      letter-spacing: 0.5px;
     }
 
     .skillsclose {
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 600;
       margin-top: 3rem;
-      color: #000000b0;
+      color: $lightwhite;
+      background: $primarylight;
+      border-radius: 10px;
+      width: fit-content;
+      padding: 8px 10px;
+      font-family: 'Ubuntu Mono', monospace;
+      letter-spacing: 0.5px;
     }
 
     .skills_content {
@@ -40,12 +52,21 @@
         align-items: center;
         padding: 15px;
         border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.8);
-        transition: 0.4s all ease-in-out !important;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+        transition: 0.5s all ease-in-out !important;
 
         &:hover {
-          transform: scale(1.07) translateY(-5px);
-          box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 1);
+          border-radius: 50px;
+          background: $primarylight;
+          box-shadow: 0 0 6px rgba(111, 125, 252, 0.6);
+        }
+
+        & svg {
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover svg {
+          color: $lightwhite !important;
         }
       }
     }
