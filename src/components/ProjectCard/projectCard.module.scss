@@ -13,7 +13,7 @@
     img {
       height: 100%;
       width: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 
@@ -36,6 +36,7 @@
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
+      line-height: 1.6rem;
     }
   }
 
