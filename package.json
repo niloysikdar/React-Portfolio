@@ -19,9 +19,18 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "prettier:fix": "prettier --write",
+    "prettier:check": "prettier --check ."
+  },
+  "lint-staged": {
+    "src/*.{ts,tsx}": [
+      "yarn prettier:fix",
+      "yarn lint"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +52,9 @@
   },
   "devDependencies": {
     "@types/react-lottie": "^1.2.6",
-    "@types/react-router-dom": "^5.1.8"
+    "@types/react-router-dom": "^5.1.8",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1"
   }
 }
