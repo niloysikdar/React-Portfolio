@@ -1,6 +1,6 @@
-@import "../../ui/fonts";
-@import "../../ui/colors";
-@import "../../ui/values";
+@import '../../ui/fonts';
+@import '../../ui/colors';
+@import '../../ui/values';
 
 @mixin keyframes($animation-name) {
   @-webkit-keyframes #{$animation-name} {
@@ -80,7 +80,7 @@
     font-weight: 400;
     color: #3f3f3f;
     text-align: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .about_next {
@@ -89,7 +89,7 @@
     font-weight: 400;
     color: #3f3f3fe0;
     text-align: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .links {
@@ -115,7 +115,7 @@
       }
 
       &:hover svg {
-          transform: rotateY(1turn);
+        transform: rotateY(1turn);
       }
 
       /*

@@ -1,4 +1,4 @@
-@import "../../ui/colors";
+@import '../../ui/colors';
 
 .row {
   display: flex;
@@ -17,7 +17,7 @@
 
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       height: 15px;
       width: 15px;
       background: #fff;
@@ -50,13 +50,13 @@
         font-size: 24px;
         font-weight: 500;
         color: $lightblack;
-        font-family: "Ubuntu", sans-serif;
+        font-family: 'Ubuntu', sans-serif;
       }
 
       & span {
         color: $primarylight;
         font-size: 18px;
-        font-family: "JoseFin sans", sans-serif;
+        font-family: 'JoseFin sans', sans-serif;
       }
     }
 

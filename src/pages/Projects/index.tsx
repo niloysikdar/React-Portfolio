@@ -1,12 +1,12 @@
-import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
-import { ProjectsData } from "../../data/ProjectsData";
-import styles from "./projects.module.scss";
+import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
+import { ProjectsData } from '../../data/ProjectsData';
+import styles from './projects.module.scss';
 
 // @ts-ignore
-import Flip from "react-reveal/Flip";
+import Flip from 'react-reveal/Flip';
 
-const projectsOpen = "<projects>";
-const projectsClose = "</projects>";
+const projectsOpen = '<projects>';
+const projectsClose = '</projects>';
 
 const Projects = () => {
   return (

@@ -1,10 +1,10 @@
-import { AboutData } from "../../data/AboutData";
-import { LinksData } from "../../data/LinksData";
-import styles from "./home.module.scss";
-import profilePic from "../../assets/profile.jpg";
+import { AboutData } from '../../data/AboutData';
+import { LinksData } from '../../data/LinksData';
+import styles from './home.module.scss';
+import profilePic from '../../assets/profile.jpg';
 
 // @ts-ignore
-import Zoom from "react-reveal/Zoom";
+import Zoom from 'react-reveal/Zoom';
 
 const welcomeText = `Hey, ${AboutData.firstName} here`;
 
@@ -20,7 +20,12 @@ const Home = () => {
         <h3 className={styles.about_next}>{AboutData.about2}</h3>
         <div className={styles.links}>
           {LinksData.map((item) => (
-            <a href={item.link} target="_blank" rel="noreferrer" key={item.title}>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              key={item.title}
+            >
               {item.icon}
             </a>
           ))}

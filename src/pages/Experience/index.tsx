@@ -1,10 +1,10 @@
-import { EducationCard } from "../../components/EducationCard/EducationCard";
+import { EducationCard } from '../../components/EducationCard/EducationCard';
 
-import { ExperienceData } from "../../data/ExperienceData";
-import styles from "../Education/education.module.scss";
+import { ExperienceData } from '../../data/ExperienceData';
+import styles from '../Education/education.module.scss';
 
-const eduOpen = "<experience>";
-const eduClose = "</experience>";
+const eduOpen = '<experience>';
+const eduClose = '</experience>';
 
 const Experience = () => {
   return (

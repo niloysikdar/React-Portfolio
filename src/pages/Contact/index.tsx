@@ -1,17 +1,17 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import Lottie from "react-lottie";
+import Lottie from 'react-lottie';
 
-import styles from "./contact.module.scss";
-import lottieData from "../../assets/email.json";
+import styles from './contact.module.scss';
+import lottieData from '../../assets/email.json';
 
-const contactOpen = "<Contact />";
+const contactOpen = '<Contact />';
 
 const Contact = () => {
   const [contactData, setContactData] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
   const handleOnchange = (e: any) => {
@@ -22,9 +22,9 @@ const Contact = () => {
     e.preventDefault();
     console.log(contactData);
     setContactData({
-      name: "",
-      email: "",
-      message: "",
+      name: '',
+      email: '',
+      message: '',
     });
   };
 
@@ -33,7 +33,7 @@ const Contact = () => {
     autoplay: true,
     animationData: lottieData,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
+      preserveAspectRatio: 'xMidYMid slice',
     },
   };
 

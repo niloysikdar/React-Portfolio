@@ -1,12 +1,12 @@
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from 'react-router-dom';
 
-import { Navbar } from "./components/Navbar/Navbar";
-import { Home } from "./pages/Home";
-import { Education } from "./pages/Education";
-import { Skills } from "./pages/Skills";
-import { Experience } from "./pages/Experience";
-import { Projects } from "./pages/Projects";
-import { Contact } from "./pages/Contact";
+import { Navbar } from './components/Navbar/Navbar';
+import { Home } from './pages/Home';
+import { Education } from './pages/Education';
+import { Skills } from './pages/Skills';
+import { Experience } from './pages/Experience';
+import { Projects } from './pages/Projects';
+import { Contact } from './pages/Contact';
 
 const App = () => {
   return (

@@ -1,8 +1,8 @@
-import { FC } from "react";
+import { FC } from 'react';
 
-import { FaGithub, FaRunning } from "react-icons/fa";
+import { FaGithub, FaRunning } from 'react-icons/fa';
 
-import styles from "./projectCard.module.scss";
+import styles from './projectCard.module.scss';
 
 interface LinkButtonProps {
   isGitHub: boolean;
@@ -18,7 +18,7 @@ const LinkButton: FC<LinkButtonProps> = (props) => {
       rel="noreferrer"
     >
       {props.isGitHub ? <FaGithub /> : <FaRunning />}
-      {props.isGitHub ? " GitHub" : " Live Here"}
+      {props.isGitHub ? ' GitHub' : ' Live Here'}
     </a>
   );
 };

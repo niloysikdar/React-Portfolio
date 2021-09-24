@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import { LinksData } from "./LinksData";
-import styles from "./navbar.module.scss";
+import { LinksData } from './LinksData';
+import styles from './navbar.module.scss';
 
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
   const [isMenuOpen, setIsmenuOpen] = useState(false);

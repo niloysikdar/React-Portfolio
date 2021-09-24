@@ -1,10 +1,10 @@
-import { EducationCard } from "../../components/EducationCard/EducationCard";
+import { EducationCard } from '../../components/EducationCard/EducationCard';
 
-import { EducationData } from "../../data/EducationData";
-import styles from "./education.module.scss";
+import { EducationData } from '../../data/EducationData';
+import styles from './education.module.scss';
 
-const eduOpen = "<education>";
-const eduClose = "</education>";
+const eduOpen = '<education>';
+const eduClose = '</education>';
 
 const Education = () => {
   return (

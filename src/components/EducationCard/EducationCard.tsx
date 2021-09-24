@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { FC } from 'react';
 
-import { IoIosSchool } from "react-icons/io";
-import styles from "./educationCard.module.scss";
+import { IoIosSchool } from 'react-icons/io';
+import styles from './educationCard.module.scss';
 
 interface EducationCardProps {
   title: string;

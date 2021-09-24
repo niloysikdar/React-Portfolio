@@ -1,11 +1,11 @@
-import { SkillsData } from "../../data/SkillsData";
-import styles from "./skills.module.scss";
+import { SkillsData } from '../../data/SkillsData';
+import styles from './skills.module.scss';
 
 // @ts-ignore
-import Zoom from "react-reveal/Zoom";
+import Zoom from 'react-reveal/Zoom';
 
-const skillsOpen = "<skills>";
-const skillsClose = "</skills>";
+const skillsOpen = '<skills>';
+const skillsClose = '</skills>';
 
 const Skills = () => {
   return (
