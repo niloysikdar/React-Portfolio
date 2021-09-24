@@ -6,7 +6,7 @@ import styles from './educationCard.module.scss';
 interface EducationCardProps {
   title: string;
   date: string;
-  details: string;
+  details: string[];
   isLeft?: boolean;
 }
 
@@ -21,7 +21,9 @@ const EducationCard: FC<EducationCardProps> = (props) => {
           <span className={styles.title}>{props.title}</span>
           <span>{props.date}</span>
         </div>
-        <p>{props.details}</p>
+        {props.details.map((item) => (
+          <p key={item}>◉ {item}</p>
+        ))}
       </section>
     </div>
   );
