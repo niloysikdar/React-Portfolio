@@ -11,5 +11,6 @@
   },
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "prettier.semi": true,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true
 }

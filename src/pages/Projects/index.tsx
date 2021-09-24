@@ -4,8 +4,8 @@ import { ProjectsData } from '../../data/ProjectsData';
 import styles from './projects.module.scss';
 
 import {
-    pageVariants,
-    pageTransition,
+  pageVariants,
+  pageTransition,
 } from '../../components/Framer/Animation';
 
 // @ts-ignore
@@ -17,7 +17,7 @@ const projectsClose = '</projects>';
 const Projects = () => {
   return (
     <div className={styles.projects}>
-      <motion.div 
+      <motion.div
         initial='init'
         animate='anim'
         exit='last'

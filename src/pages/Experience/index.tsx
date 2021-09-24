@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { EducationCard } from '../../components/EducationCard/EducationCard';
 
 import {
-    pageVariants,
-    pageTransition,
+  pageVariants,
+  pageTransition,
 } from '../../components/Framer/Animation';
 
 import { ExperienceData } from '../../data/ExperienceData';
