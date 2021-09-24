@@ -15,24 +15,15 @@ const skillsClose = '</skills>';
 const Skills = () => {
   return (
     <div className={styles.skills}>
+      <motion.div 
+        initial='init'
+        animate='anim'
+        exit='last'
+        variants={pageVariants}
+        transition={pageTransition}
+      >
         <div className={styles.wrapper}>
-          <h3 className={styles.skillsopen}>
-          <motion.div 
-            initial='init'
-            animate='anim'
-            exit='last'
-            variants={pageVariants}
-            transition={pageTransition}>
-              {skillsOpen}
-            </motion.div>
-          </h3>
-
-          <motion.div 
-            initial='init'
-            animate='anim'
-            exit='last'
-            variants={pageVariants}
-            transition={pageTransition}>
+          <h3 className={styles.skillsopen}>{skillsOpen}</h3>
             <div className={styles.skills_content}>
               {SkillsData.map((item) => (
                 <a
@@ -45,19 +36,9 @@ const Skills = () => {
                 </a>
               ))}
             </div>
-          </motion.div>
-          
-          <h3 className={styles.skillsclose}>
-          <motion.div 
-            initial='init'
-            animate='anim'
-            exit='last'
-            variants={pageVariants}
-            transition={pageTransition}>
-              {skillsClose}
-            </motion.div>
-          </h3>
+          <h3 className={styles.skillsclose}>{skillsClose}</h3>
         </div>
+      </motion.div>
     </div>
   );
 };
