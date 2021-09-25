@@ -3,10 +3,7 @@ import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
 import { ProjectsData } from '../../data/ProjectsData';
 import styles from './projects.module.scss';
 
-import {
-  pageVariants,
-  pageTransition,
-} from '../../components/Framer/Animation';
+import { pageVariants, pageTransition } from '../../utils/FramerAnimation';
 
 // @ts-ignore
 import Flip from 'react-reveal/Flip';

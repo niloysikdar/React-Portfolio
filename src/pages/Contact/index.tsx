@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-import {
-    pageVariants,
-    pageTransition,
-} from '../../components/Framer/Animation';
+import { pageVariants, pageTransition } from '../../utils/FramerAnimation';
 
 import Lottie from 'react-lottie';
 
@@ -45,50 +42,50 @@ const Contact = () => {
 
   return (
     <div className={styles.contact}>
-      <motion.div 
-          initial='init'
-          animate='anim'
-          exit='last'
-          variants={pageVariants}
-          transition={pageTransition}
-          className={styles.wrapper}
+      <motion.div
+        initial='init'
+        animate='anim'
+        exit='last'
+        variants={pageVariants}
+        transition={pageTransition}
+        className={styles.wrapper}
       >
         <div className={styles.form}>
           <h3 className={styles.contactOpen}>{contactOpen}</h3>
           <form onSubmit={handleOnsubmit}>
             <input
-              type="text"
-              name="name"
-              placeholder="Name"
+              type='text'
+              name='name'
+              placeholder='Name'
               required
               value={contactData.name}
               onChange={handleOnchange}
             />
             <input
-              type="email"
-              name="email"
-              placeholder="Email"
+              type='email'
+              name='email'
+              placeholder='Email'
               required
               value={contactData.email}
               onChange={handleOnchange}
             />
             <textarea
-              name="message"
+              name='message'
               cols={30}
               rows={5}
-              placeholder="Your Message"
+              placeholder='Your Message'
               required
               value={contactData.message}
               onChange={handleOnchange}
             ></textarea>
-            <button type="submit">Send</button>
+            <button type='submit'>Send</button>
           </form>
         </div>
         <div className={styles.lottie}>
           <Lottie
             options={defaultOptions}
-            height="100%"
-            width="100%"
+            height='100%'
+            width='100%'
             isStopped={false}
             isPaused={false}
           />
