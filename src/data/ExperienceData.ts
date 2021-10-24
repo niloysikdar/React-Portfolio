@@ -6,21 +6,21 @@ interface ExperienceDataType {
 
 export const ExperienceData: ExperienceDataType[] = [
   {
-    title: 'SAWO Labs | SDE Intern',
-    date: 'July 2021 – Present',
+    title: 'SAWO Labs | Software Developer Intern',
+    date: ' Jul, 2021 – Sep, 2021',
     details: [
-      'Increased the pub points from 80/130 to 130/130 for the sawo flutter package with improvements.',
-      'Revamped the whole UI of the landing page with a Lighthouse score of 96 in performance',
-      'Fixed Bugs, added new reusable components to the Client Dashboard and WebSDK using React and Redux',
-      'Built Sawo sample apps from scratch using React, Vue.js, React Native, and Node.js.',
+      'Increased the pub points from 80/130 to 130/130 of the sawo flutter package with additional improvements',
+      'Revamped the whole UI of the website using React and Tailwind CSS with a Lighthouse score of 96',
+      'Fixed bugs, added new reusable components to the Client Dashboard and WebSDK using React and Redux',
+      'Built SAWO sample apps from scratch using React, Vue.js, Node.js and React Native',
     ],
   },
   {
     title: 'Fivefalcon Private Limited | Flutter Developer Intern',
-    date: 'March 2021 – April 2021',
+    date: 'Mar, 2021 – Apr, 2021',
     details: [
-      'Built the UI from scratch of a booking app named Extacy, using Flutter from Figma design',
-      'Added Phone, Email and Google authentication using Firebase and Backend features like adding clubs, bars, and parties from Admin side and showing them on the Client side using Firestore CRUD operations.',
+      'Developed the interactive and animated UI from scratch of a booking app named Extacy Extacy, using Flutter',
+      'Added Phone, Email and Google authentication using Firebase and Backend features like adding clubs, bars, and parties from Admin side and showing them on the Client side using Firestore CRUD operations',
     ],
   },
 ];

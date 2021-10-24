@@ -1,5 +1,13 @@
 export const ProjectsData = [
   {
+    title: 'GuruCool',
+    description: `Progressive Web Application with moderation functionality for Teachers 
+    to keep the track of Students’ activity with Gamified approach to learning`,
+    image: 'https://i.imgur.com/7WZV18P.png',
+    GitHub: 'https://github.com/niloysikdar/GuruCool',
+    hosted: 'https://gurucool.vercel.app/',
+  },
+  {
     title: 'RememBirth',
     description: `Do you always forget everyone's Birthday and miss to wish them?
     Don't worry, the solution is here.`,
@@ -12,15 +20,15 @@ export const ProjectsData = [
     description: `A mobile application, where people in need of blood plasma/oxygen can directly find and contact the donors and healthcare units.`,
     image: 'https://i.imgur.com/n6nVFnT.png',
     GitHub: 'https://github.com/niloysikdar/Plaso-Connect',
-    hosted: `https://devlibrary.withgoogle.com/products/flutter/repos/niloysikdar-Plaso-Connect`,
+    hosted: `https://github.com/niloysikdar/Plaso-Connect/releases`,
   },
   {
     title: 'Smile-E',
     description: `A one-stop solution for an easy, digital, and trusted agreement for NGOs using eSignature.
     Added a dedicated Dashboard section to showcase the NGOs’ past works for easy fundraising.`,
-    image: 'https://i.imgur.com/EqpR2Ri.png',
+    image: 'https://i.imgur.com/UfKALPO.png',
     GitHub: 'https://github.com/niloysikdar/Smile-E',
-    hosted: 'https://devpost.com/software/smile-e',
+    hosted: 'https://smile-e.vercel.app/',
   },
   {
     title: 'CodeChef Peek',
@@ -42,21 +50,7 @@ export const ProjectsData = [
     description: `A Social Media Application using MERN stack with Google OAuth and JWT for login`,
     image: 'https://imgur.com/d6dVSTx.png',
     GitHub: 'https://github.com/niloysikdar/WeShare',
-    hosted: 'https://github.com/niloysikdar/Grow-Green#screenshots-',
-  },
-  {
-    title: 'Sell It',
-    description: `Platform for selling and buying new and old/used products, used Golang, Gorilla Mux, SQLite and Vue.js`,
-    image: 'https://i.imgur.com/6YH6XOC.png',
-    GitHub: 'https://github.com/niloysikdar/Sell-It',
-    hosted: 'https://github.com/niloysikdar/Sell-It#screenshots-',
-  },
-  {
-    title: 'Sukoon',
-    description: `A platform to help people suffering from mental health issues and make them feel better through customized activities suggested according to their needs and also make them aware of their mental health condition.`,
-    image: 'https://i.imgur.com/1OYZOT7.png',
-    GitHub: 'https://github.com/niloysikdar/Sukoon',
-    hosted: 'https://sukoon.vercel.app/',
+    hosted: 'https://weshare.niloysikdar.vercel.app/',
   },
   {
     title: 'Grow Green',
@@ -64,5 +58,12 @@ export const ProjectsData = [
     image: 'https://i.imgur.com/S52NuUH.png',
     GitHub: 'https://github.com/niloysikdar/Grow-Green',
     hosted: 'https://github.com/niloysikdar/Grow-Green#screenshots-',
+  },
+  {
+    title: 'Sukoon',
+    description: `A platform to help people suffering from mental health issues and make them feel better through customized activities suggested according to their needs and also make them aware of their mental health condition.`,
+    image: 'https://i.imgur.com/1OYZOT7.png',
+    GitHub: 'https://github.com/niloysikdar/Sukoon',
+    hosted: 'https://sukoon.vercel.app/',
   },
 ];
