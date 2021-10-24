@@ -12,9 +12,7 @@ interface EducationCardProps {
 
 const EducationCard: FC<EducationCardProps> = (props) => {
   return (
-    <div
-      className={`${styles.row} ${props.isLeft ? styles.row_1 : styles.row_2}`}
-    >
+    <div className={`${styles.row} ${props.isLeft ? styles.row_1 : styles.row_2}`}>
       <section>
         <IoIosSchool className={styles.icon} />
         <div className={styles.details}>

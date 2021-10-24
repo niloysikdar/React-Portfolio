@@ -1,9 +1,9 @@
 ---
 name: 🚀 Feature Request
 about: Submit a proposal for a new feature
-labels: "feature"
-title: ""
-assignees: ""
+labels: 'feature'
+title: ''
+assignees: ''
 ---
 
 ## 🚀 Feature

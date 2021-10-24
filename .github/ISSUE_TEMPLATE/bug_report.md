@@ -1,9 +1,9 @@
 ---
 name: 🐛 Bug Report
 about: Submit a bug report to help us improve
-labels: "bug"
-title: ""
-assignees: ""
+labels: 'bug'
+title: ''
+assignees: ''
 ---
 
 ## Describe the Bug 🐛

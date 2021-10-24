@@ -27,42 +27,23 @@ const Navbar = () => {
         </div>
         <div className={styles.mobileview}>
           <div
-            className={
-              isMenuOpen
-                ? `${styles.mobilemenu} ${styles.active}`
-                : styles.mobilemenu
-            }
+            className={isMenuOpen ? `${styles.mobilemenu} ${styles.active}` : styles.mobilemenu}
             onClick={handleMobileMenuToggle}
           >
-            <IoMenu size={40} color="#ffffff" />
+            <IoMenu size={40} color='#ffffff' />
           </div>
 
           <div
-            className={
-              !isMenuOpen
-                ? `${styles.mobilemenu} ${styles.active}`
-                : styles.mobilemenu
-            }
+            className={!isMenuOpen ? `${styles.mobilemenu} ${styles.active}` : styles.mobilemenu}
             onClick={handleMobileMenuToggle}
           >
-            <IoClose size={40} color="#ffffff" />
+            <IoClose size={40} color='#ffffff' />
           </div>
         </div>
       </div>
-      <div
-        className={
-          isMenuOpen
-            ? `${styles.mobileMenuModal} ${styles.active}`
-            : styles.mobileMenuModal
-        }
-      >
+      <div className={isMenuOpen ? `${styles.mobileMenuModal} ${styles.active}` : styles.mobileMenuModal}>
         {LinksData.map((link) => (
-          <Link
-            to={link.linkTo}
-            key={link.title}
-            className={styles.mobileLinks}
-            onClick={handleMobileMenuToggle}
-          >
+          <Link to={link.linkTo} key={link.title} className={styles.mobileLinks} onClick={handleMobileMenuToggle}>
             {link.title}
           </Link>
         ))}

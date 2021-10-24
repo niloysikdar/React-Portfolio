@@ -14,13 +14,7 @@ const projectsClose = '</projects>';
 const Projects = () => {
   return (
     <div className={styles.projects}>
-      <motion.div
-        initial='init'
-        animate='anim'
-        exit='last'
-        variants={pageVariants}
-        transition={pageTransition}
-      >
+      <motion.div initial='init' animate='anim' exit='last' variants={pageVariants} transition={pageTransition}>
         <div className={styles.wrapper}>
           <h3 className={styles.projectsOpen}>{projectsOpen}</h3>
 
@@ -48,7 +42,7 @@ const Projects = () => {
                     hosted={item.hosted}
                   />
                 </Flip>
-              )
+              ),
             )}
           </div>
 

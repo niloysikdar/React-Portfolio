@@ -82,13 +82,7 @@ const Contact = () => {
           </form>
         </div>
         <div className={styles.lottie}>
-          <Lottie
-            options={defaultOptions}
-            height='100%'
-            width='100%'
-            isStopped={false}
-            isPaused={false}
-          />
+          <Lottie options={defaultOptions} height='100%' width='100%' isStopped={false} isPaused={false} />
         </div>
       </motion.div>
     </div>
